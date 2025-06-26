@@ -12,5 +12,8 @@ module "vm" {
 
 output "ip" {
   value = module.vm.ip
+}
 
+output "private_ip" {
+  value = module.vm.private_ip
 }
